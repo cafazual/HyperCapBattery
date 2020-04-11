@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="Celdas HyperCap Battery" />
+
+        <!-- THIS IS JUST A PLACEHOLDER -->
+
+        <Button
+            android:text="Detalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailedbtn"
+            android:layout_below="@+id/chart1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart1"
+            android:layout_width="match_parent"
+            android:layout_height="329dp"
+            android:layout_below="@+id/tvVoltajeppal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:text="Voltaje Total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvVoltajeppal"
+            android:layout_marginTop="13dp"
+            android:textStyle="normal|bold|italic"
+            android:textSize="20sp"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true" />
+
+        <!-- THIS IS JUST A PLACEHOLDER -->
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
